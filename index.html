@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDayList</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header> 
+        <section class="greeting">
+            <h1 class="title">
+                To Do List For <input type="text" id="name" placeholder="Name here"/>
+            </h1>
+        </section>
+        <form id = "new-task-form">
+            <input
+                type="text"
+                name="new-task-input"
+                id="new-task-input"
+                placeholder="Enter a Task" />
+            <input 
+                type="submit"
+                id="new-task-submit" 
+                value="Add task" />
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2> Tasks </h2>
+
+            <div id = "tasks" >
+
+                <!--div class="task">
+                    </div>
+                    <div class = "content">
+                        <input
+                            type="text"
+                            class="text"
+                            value="tasked"
+                            readonly
+                        />
+                    </div>
+                    <div class="actions">
+                        <button class="check">Check</button>
+                        <button class="edit">Edit</button>
+                        <button class="delete">&#128465</button>
+                    </div> -->
+                </div>
+            </div>
+            <p class ="task-count">0 Tasks Left To Do</p>
+            <div class="clear-completed">
+                <button class="btn-clear">Clear Completed Tasks</button>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
